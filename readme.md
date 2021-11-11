@@ -4,7 +4,8 @@
 
 Matlab R2021b was downloaded and used for this assignment. 
 
-This assignment uses code from Dr. McKay's website as well as code given in the powerpoint. My (Frank Chien) contributions to the assignment are in writing the functions preprocess_marker_data and pc1, or otherwise explicitly commented in code. plot_motion.m was written to demonstrate the code's functionality and to reproduce the figure on slide 74 of the lecture powerpoint.
+This assignment uses code from Dr. McKay's website as well as code given in the powerpoint. My (Frank Chien) contributions to the assignment are in writing the functions preprocess_marker_data and pc1, or otherwise explicitly commented in code. plot_motion.m was written to demonstrate the code's functionality and to reproduce the figure on slide 74 of the lecture powerpoint. This graphic is found in preprocessed_pc1_plot.png.
+
 When run on pt 688  using "L.Wrist", the outputs of tremor_analysis were similar to the output in slide 80 with minor variation, except RMS_Power was ~6 rather than 9.49.
 
 Using the following command >> tremor_analysis('fname', "C:\Users\Frank\Desktop\deidentified_trc\deidentified_trc\688\sit-rest1-TP.trc", 'markername', "L.Wrist")
@@ -21,4 +22,4 @@ Finally, file_crawler.m is a script written by Frank Chien that uses the patient
 
 Filepaths for file_crawler were hard-coded in, and needs to be changed to run on another system.
 
-Due to file size, deidentified_trc is not included but can be obtained from Dr. McKay's website.
+Due to file size, deidentified_trc and the lecture slides were not included but can be obtained from Dr. McKay's website.
